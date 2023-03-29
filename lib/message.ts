@@ -287,6 +287,8 @@ const knownIrcTags = [
   "extendsub",
   "custom-reward-id",
   "target-user-id",
+  "vip",
+  "returning-chatter"
 ] as const;
 
 type KnownTags = {
