@@ -288,7 +288,9 @@ const knownIrcTags = [
   "custom-reward-id",
   "target-user-id",
   "vip",
-  "returning-chatter"
+  "returning-chatter",
+  "msg-param-was-gifted",
+  "msg-param-multimonth-duration"
 ] as const;
 
 type KnownTags = {
